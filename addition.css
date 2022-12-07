@@ -51,6 +51,8 @@
     height: 100px;
     display: block;
     align-items: flex-end;
+    background: rgb(107, 202, 240);
+
 }
 
 .parentblockR {
@@ -60,7 +62,48 @@
     justify-content: end;
     width: 50%;
     height: 100px;
+    background: rgb(94, 172, 58);
 
+}
+
+.orangered {
+    width: 20%;
+    height: 80%;
+    padding: 8px;
+    margin: 10px;
+    background: orangered;
+}
+
+.green {
+    width: 20%;
+    height: 80%;
+    padding: 8px;
+    margin: 10px;
+    background: green;
+}
+
+.bigbroblock2 {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+}
+
+div div header {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+div div section aside div div {
+    background:white ;
+    width: 100%;
+    height: auto;
+}
+
+section ul {
+    background: rgb(107, 202, 240);
+    height: 100px;
+    width: 100%;
 }
 
 nav ul {
@@ -100,12 +143,15 @@ div ul li a {
     flex-direction: column;
     height: 500px;
     width: 12.5%;
+    background: rgb(248, 193, 161);
 }
 
 .almostright {
     width: 12.5%;
     float: left;
     height: 500px;
+    background: rgb(248, 193, 161);
+    border: solid;
 }
 
 .section {
@@ -150,9 +196,80 @@ div ul li a {
     padding: 5px;
 }
 
+.triple {
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+    background: white;
+}
+
 div footer {
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
+div div div article div div {
+    background: rgb(255, 157, 157);
+    width: 35%;
+    height: 80%;
+    margin: 5px;
+    float: left;
+}
+
+div div div article div p {
+    display: flex;
+    float: right;
+    margin-right: 5px;
+}
+
+div div div article div div a {
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+}
+
+.coppyofblock2 {
+    width: 90%;
+    height: 70%;
+    background: rgb( 130, 212, 236);
+    margin-left: 8px;
+}
+
+section {
+
+}
+
+section aside {
+
+}
+
+section aside div {
+
+}
+
+section aside div div {
+
+}
+
+
+section aside div div ul {
+
+}
+
+section aside div div ul li {
+    background: orangered;
+    margin-right: 10px;
+    width: 25% ;
+    height: 80px ;
+    color: white;
+    margin: 8px;
+    padding: 5px;
+}
+
+section aside h3 {
+    
+}
