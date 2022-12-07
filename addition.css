@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.topnav {
+    width: 100%;
+    height: 30px;
+    background: rgb(49, 134, 231);
+}
+
+.rightnav {
+    float: right;
+}
+
+.boxright {
+    border: solid;
+}
+
+.footerr {
+    background: rgb(245, 161, 175);
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.borderforyes {
+    border: solid;
+    display: flex;
+    background: wheat;
+}
+
+.bigcontainer {
+    display: flex;
+    background: rgb(167, 224, 247);
+}
+
+.parentblockL{
+    float: left;
+    width: 50%;
+    height: 100px;
+    display: block;
+    align-items: flex-end;
+}
+
+.parentblockR {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: end;
+    width: 50%;
+    height: 100px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+div ul {
+    list-style: none;
+}
+
+div ul li {
+    float: left;
+    margin-top: 7px;
+}
+
+div ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.asdasd {
+    display: flex;
+    float: right;
+    border: solid;
+    flex-direction: column;
+    height: 500px;
+    width: 25%;
+}
+
+.section {
+    float: left;
+    background: white;
+    width: 75%;
+    height: 500px;
+    border: solid;
+}
+
+.article {
+    padding: 5px;
+    border: solid;
+    margin: 20px;
+    height: 100px;
+    border-radius: 25px;
+    background: plum;
+}
+
+.insidearticle {
+    border: solid;
+    margin: 10px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.additionaticle {
+    border: solid;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    height: 80px;
+    background: plum;
+}
+
+.shit {
+    margin-right: 10px;
+    width: 20%;
+    height: 80%;
+    color: white;
+    margin: 8px;
+    padding: 5px;
+}
+
+div footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
