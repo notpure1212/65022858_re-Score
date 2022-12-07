@@ -93,13 +93,19 @@ div ul li a {
     margin-right: 10px;
 }
 
-.asdasd {
+.mostright {
     display: flex;
     float: right;
     border: solid;
     flex-direction: column;
     height: 500px;
-    width: 25%;
+    width: 12.5%;
+}
+
+.almostright {
+    width: 12.5%;
+    float: left;
+    height: 500px;
 }
 
 .section {
